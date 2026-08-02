@@ -2,6 +2,11 @@
 
 ![Banner del Proyecto](bannerp.png)
 
+## por: Eleonor A.H. (@leonXxit0)
+
+> **Sobre Mí:** Soy abogada con experiencia en **PYMEs, gestión de proyectos y relaciones públicas**. Mi trayectoria profesional se centra en la consultoría legal, negocios y el cumplimiento normativo de personas jurídicas. Lo que me diferencia es mi capacidad para tender puentes entre el **Derecho** y la **Tecnología**. He complementado mi formación legal con estudios técnicos en **redes IP y ciberseguridad**, lo que me permite comprender los riesgos tecnológicos y traducirlos al lenguaje legal que las empresas necesitan para protegerse.
+
+---
 
 ## 🎯 Objetivo del Proyecto
 
