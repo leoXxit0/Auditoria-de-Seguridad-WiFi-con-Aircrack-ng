@@ -77,6 +77,14 @@ Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, 
 
 ---
 
+### 📄 Documentación
+
+📎 [Descargar Configuracion de Adaptador Wifi (.pdf)](./Configuracion-adaptadorwifi.pdf)
+*(Incluye análisis de riesgos, implicaciones legales y referencias normativas).*
+
+📎 [Descargar Auditoria (.pdf)](./auditoria.pdf)  
+*(Para visualizar la configuración en Cisco Packet Tracer).*
+
 ## 📌 Lecciones Aprendidas
 
 - 🔒 El SSID oculto no es una medida de seguridad efectiva.
