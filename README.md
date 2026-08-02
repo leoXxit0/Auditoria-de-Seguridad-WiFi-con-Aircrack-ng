@@ -1,7 +1,6 @@
 # 🔐 Auditoría de Seguridad WiFi: Captura de Handshake WPA2 con SSID Oculto y Ataque de Diccionario
 
-![Banner del Proyecto](banner.png)
-
+![Banner del Proyecto](bannerp.png)
 
 ## 🎯 Objetivo del Proyecto
 
