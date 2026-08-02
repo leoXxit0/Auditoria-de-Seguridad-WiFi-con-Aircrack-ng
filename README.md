@@ -2,6 +2,7 @@
 
 ![Banner del Proyecto](bannerp.png)
 
+
 ## 🎯 Objetivo del Proyecto
 
 Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, utilizando un entorno controlado (red propia) para:
