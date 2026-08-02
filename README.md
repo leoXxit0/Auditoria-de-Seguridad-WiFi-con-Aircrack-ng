@@ -1,5 +1,7 @@
 # 🔐 Auditoría de Seguridad WiFi: Captura de Handshake WPA2 con SSID Oculto y Ataque de Diccionario
 
+![Banner del Proyecto](banner.png)
+
 ## 🎯 Objetivo del Proyecto
 
 Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, utilizando un entorno controlado (red propia) para:
