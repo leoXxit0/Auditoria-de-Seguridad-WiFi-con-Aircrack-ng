@@ -12,6 +12,8 @@ Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, 
 - ✅ Analizar la efectividad del ocultamiento del SSID como medida de seguridad.
 - ✅ Documentar el proceso completo para fines educativos y de concienciación.
 
+---
+
 ## 📁 Fase 1: Configuración del Hardware y Preparación del Entorno
 - Selección del adaptador WiFi (RTL88x2bu)
 - Instalación de drivers en Linux
