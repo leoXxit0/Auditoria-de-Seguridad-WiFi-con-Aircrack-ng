@@ -80,3 +80,9 @@ Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, 
 - 🧠 `aircrack-ng` siempre necesita el ESSID, incluso si se usa el BSSID.
 - 📡 La captura en vivo es una técnica poderosa para obtener información que no está en una captura pasiva.
 - 🔑 La fortaleza de la contraseña es el factor crítico en la seguridad de una red WiFi.
+
+---
+
+## 📬 Contacto
+
+📧 [elarhuaa@gmail.com](mailto:elarhuaa@gmail.com)
