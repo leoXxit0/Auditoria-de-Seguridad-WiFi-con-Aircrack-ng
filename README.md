@@ -45,7 +45,7 @@ Demostrar la vulnerabilidad de las redes WiFi WPA2 ante ataques de diccionario, 
 
 📎 [Descargar Configuracion de Adaptador Wifi (.pdf)](./Configuracion-adaptadorwifi.pdf)
 
-📎 [Descargar Auditoria (.pdf)](./auditoria.pdf)  
+📎 [Descargar Auditoria (.pdf)](./Auditoria.pdf)  
 
 ---
 
